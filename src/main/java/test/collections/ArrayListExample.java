@@ -1,6 +1,7 @@
 package test.collections;
 
 import java.util.*;
+
 public class ArrayListExample {
     public List<String> ArrayListElements;
 
