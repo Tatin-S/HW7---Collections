@@ -5,10 +5,10 @@ public class ArrayListExample {
     public List<String> ArrayListElements;
 
     public void searchArrayListElement (String element) {
-        for (int i = 0; i < ArrayListElements.size(); i++) {
-            if (ArrayListElements.get(i).equals(element)) {
+        for (String arrayListElement : ArrayListElements) {
+            if (arrayListElement.equals(element)) {
                 System.out.println("Элемент коллекции ArrayList найден: "
-                        + ArrayListElements.get(i));
+                        + arrayListElement);
                 break;
             }
         }
